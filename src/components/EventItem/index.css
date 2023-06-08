@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.event-item-container {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.border {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+.event-img {
+  width: 100%;
+}
+.loc {
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .event-item-container {
+    width: 40%;
+  }
+}
